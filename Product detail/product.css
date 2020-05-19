@@ -1,0 +1,107 @@
+body{
+font-size: 20px;
+background-image: url("Yonex.png");
+font-family:Trebuchet MS, Helvetica, sans-serif;
+background-size: cover;
+margin: 0px;
+}
+
+.navigation{
+  overflow:hidden;
+  background-color:#000;
+}
+.navigation a{
+  font-size:20px;
+  font-family:Trebuchet MS, Helvetica, sans-serif;
+  color:white;
+  text-decoration:none;
+  padding:20px;
+}
+.navigation a:hover{
+  background-color:#d9d9d9;
+  color:black;
+}
+.navigation a.checkout{
+  background-color:#999999;
+  color: white;
+  }
+
+h1{font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+padding: 10px;
+}
+
+h2{
+	color: yellow;
+}
+
+
+.ax99{float: left;
+margin: 0px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.ax88s{float: left;
+margin-left: 50px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.ax88d{float: left;
+margin: 0px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.ax99lcw{float: left;
+margin: 0px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.duora10{float: left;
+margin: 0px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.duora10lt{float: left;
+margin-left: 30px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.duora88{float: left;
+margin-left: 0px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.duora77{float: left;
+margin-left: 10px;
+font-family:Trebuchet MS, Helvetica, sans-serif;
+color: white;
+font-style: italic;
+padding: 30px;}
+
+.add{text-decoration: none;
+border: 2px solid red;
+color: black;
+background-color: white;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin: 0px;
+}

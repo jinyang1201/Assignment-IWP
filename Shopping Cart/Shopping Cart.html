@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart</title>
+<link rel="stylesheet" type="text/css" href="contactus.css">
+</head>
+<body>
+<div class="navigation">
+  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Main%20Page/index.html" style="float:left">Home</a>
+  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/About%20Us/About%20Us.html" class="about" style="float:left" >About</a>
+  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Product%20detail/Product%20Detail.html" style="float:left">Product</a>
+  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Check%20Out/CheckOut.html" style="float:right">Check Out</a>
+  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Shopping%20Cart/Shopping%20Cart.html"class="spcrt" style="float:right">Shopping Cart</a>
+
+</div>
+<div class="container">
+  <div style="text-align:left">
+    <h3><p>Get In Touch</p></h3>
+    <font color="#666666">Please fill in the form and we will be be in touch as soon as possible.</font>
+  </div>
+  <div class="row">
+
+    <div class="column">
+     <form action="mailto:hqteyou21@gmail.com" method="post" enctype="text/plain">
+	 <p>Select Your Racquet:</p>
+	 	<select id="recquet" name="racquet" style="width:405px;">
+			<option value="Astrox 100 ZZ">Astrox 100 ZZ (RM758.00)</option>
+			<option value="Astrox 88 S">Astrox 88 S (RM 499.00)</option>
+			<option value="Astrox 88 D">Astrox 88 D (RM 499.00)</option>
+			<option value="Astrox 99 LCW">Astrox 99 LCW (EM 545.00)</option>
+			<option value="Duora 10">Duora 10 (RM 450.00)</option>
+			<option value="Duora 10 LT">Duora 10 LT (RM 450.00)</option>
+			<option value="Duora 88">Duora 88 (RM 425.00)</option>
+			<option value="Duora 77">Duora 77 (RM 325.00)</option>
+		</select>
+<br>	<br>	
+		Free gift<br>
+        <div class="slidecontainer">
+		<p>Select your tension :</p>
+  <input type="range" min="20" max="38" value="23" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+		Select Your Grip :<br>
+			<select name="Grip" style="width:405px;">
+			<option value="Over Grip">Over Grip (color random)</option>
+			<option value="Towel Grip yellow">Towel Grip (only yellow)</option>
+			<option value="Thick Grip red">Thick Grip (red)</option>
+			<option value="Thick Grip blue">Thick Grip (blue)</option>
+		</select>
+		
+		<br>
+		Grip Service :<br>
+		<select name="grip service" style="width:405px;">
+			<option value="yes">Yes</option>
+			<option value="no" selected>No</option>
+		</select>
+		<br>
+		Select your String :<br>
+		<select name="string" style="width:405px;">
+			<option value="BG66 UM white">BG66 UltiMax (white)</option>
+			<option value="BG66 UM yellow">BG66 UltiMax (yellow)</option>
+			<option value="BG66 UM red">BG66 UltiMax (red)</option>
+			<option value="BG66 UM freen">BG66 UltiMax (green)</option>
+			<option value="BG88 POWER random">BG 88 power (color random)</option>
+			<option value="BG66 random">BG66(color random)</option>
+		</select>
+		<br>
+		String Service :<br>
+			<select name="string service" style="width:405px;">
+			<option value="yes">Yes</option>
+			<option value="no" selected>No</option>
+		</select>
+        <textarea id="message" name="message" placeholder="Message" style="height:100px"></textarea><br>
+		<button>Place Order</button>
+      </form>
+	  <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Check%20Out/CheckOut.html"><button style="width:150px;">Pay Bill</button></a>
+    </div>
+  </div>
+</div>
+
+  	 <div class="footer">
+<a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Project/User%20Interface/Main%20Page/index.html"><img src="yonex-1.png" alt="yonex" width="170px" height="170px"></a>
+ </div>
+</div>
+
+</body>
+</html>
