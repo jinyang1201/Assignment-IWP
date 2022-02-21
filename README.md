@@ -24,4 +24,4 @@ CSS is the language we use to style an HTML document. CSS describes how HTML ele
 JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
 
 ## Contributing
-Create the website when during internship in AKYWEB Company. This website is I create for my course Internet and web publishing's assignment when study in Multimedia University.
+This website is I create for my course Internet and web publishing's assignment when study in Multimedia University.
